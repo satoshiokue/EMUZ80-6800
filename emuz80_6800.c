@@ -190,12 +190,12 @@
 #define _XTAL_FREQ 64000000UL
 
 //6800 ROM equivalent, see end of this file
-const unsigned char rom[ROM_SIZE];
+extern const unsigned char rom[ROM_SIZE];
 
 //6800 RAM equivalent
 volatile unsigned char ram[RAM_SIZE] __at(0x2000);
 //6800 RAM image
-const unsigned char ram_data[RAM_SIZE];
+extern const unsigned char ram_data[RAM_SIZE];
 
 //Address Bus
 union {
