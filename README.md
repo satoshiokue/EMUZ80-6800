@@ -4,7 +4,7 @@
 6800 Single-Board Computer
 
 電脳伝説さん(@vintagechips)のEMUZ80の信号を組み替え、MC68A00Pを動作させることができます。  
-アドレスマップをSBC6800に準じることで同データパックのMikbugおよびVTLの操作が体験できます。  
+アドレスマップをSBC6800に準じることで同データパックのMikbugおよびVTLの操作を体験する目的で作成しました。  
 
 SBC6800ルーズキット  
 https://vintagechips.wordpress.com/2017/12/05/sbc6800ルーズキット/
@@ -30,7 +30,7 @@ https://github.com/satoshiokue/MEZ6800/blob/main/MEZ6800.pdf
 EMUZ80で配布されているフォルダemuz80.X下のmain.cと置き換えて使用してください。
 * emuz80_6800.c ソフトクロック
 
-emuz80_6502.cはメモリアクセス・通信I/O処理の完了でクロック信号をLowにして、その後クロック信号をHighにしてバスにアクセスします。  
+emuz80_6800.cはメモリアクセス・通信I/O処理の開始および完了でクロック信号を反転させてバスにアクセスします。  
 PICはクロック信号のデューティー比を変化させながらMC68A00を動作させます。
 
 ## アドレスマップ
