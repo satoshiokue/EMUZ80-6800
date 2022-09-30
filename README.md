@@ -10,7 +10,7 @@ SBC6800ルーズキット
 https://vintagechips.wordpress.com/2017/12/05/sbc6800ルーズキット/
 
 「モトローラ6800伝説」を手元に用意することを強く推奨します。  
-https://www.amazon.co.jp/dp/4899774729/ref=cm_sw_r_tw_dp_S5RAJJ33FRRH4CV1535F
+https://www.amazon.co.jp/dp/4899774729
 
 MC68A00PとPIC18F47Q83の組み合わせで動作確認しています。
 
