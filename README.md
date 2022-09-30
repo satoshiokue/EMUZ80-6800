@@ -54,7 +54,8 @@ hex2bin -p 00 MIKBUG.HEX
 xxd -i -c16 MIKBUG.bin > MIKBUG.txt
 ```
 
-RAMにロードするデータも同様にモトローラSフォーマットを配列データ化して配列ram_data[]に格納することでEMUZ80がリセットされるとRAM領域にデータを設定してMC68A00を起動します。
+RAMにロードするデータも同様にモトローラSフォーマットを配列データ化して配列ram_data[]に格納することでEMUZ80がリセットされるとRAM領域にデータを設定してMC68A00を起動します。  
+ファイルサイズが大きいBASICのロード時間を回避できます。
 
 使用ツール例[E3V3A / hex2bin]  
 https://github.com/E3V3A/hex2bin
