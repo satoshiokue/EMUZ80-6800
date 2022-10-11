@@ -19,6 +19,7 @@ PIC18F47Q83 または PIC18F47Q84を推奨します。
 動作確認済みMPU  
 MC68A00P  
 EF6800P  
+HD46800DP  
 
 このソースコードはGazelleさんのEMUZ80用main_cpz.cを元に改変してGPLライセンスに基づいて公開するものです。
 
