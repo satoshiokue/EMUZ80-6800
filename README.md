@@ -26,7 +26,10 @@ HD46800DP
 https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1
 
 ## メザニンボード
-https://github.com/satoshiokue/MEZ6800
+https://github.com/satoshiokue/MEZ6800  
+
+MEZ6800専用プリント基板 - オレンジピコショップ  
+https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-059.html
 
 ## 回路図
 https://github.com/satoshiokue/MEZ6800/blob/main/MEZ6800.pdf
