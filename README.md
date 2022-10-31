@@ -3,7 +3,7 @@
 ![MEZ6800](https://github.com/satoshiokue/EMUZ80-6800/blob/main/imgs/IMG_6800_proto.jpeg)  
 6800 Single-Board Computer
 
-電脳伝説さん(@vintagechips)のEMUZ80が出力するZ80 CPU信号をメザニンボードで組み替えてMC68A00Pを動作させることができます。  
+電脳伝説さん(@vintagechips)のEMUZ80が出力するZ80 CPU信号をメザニンボードで組み替え、MC68A00Pを動作させることができます。  
 アドレスマップをSBC6800に準じることで同データパックのMikbugおよびVTLの操作を体験する目的で作成しました。  
 
 SBC6800ルーズキット  
