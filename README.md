@@ -60,7 +60,7 @@ EMUZ80技術資料8ページにしたがってPICに適合するemuz80_6800_Qxx.
 
 テキスト変換例
 ```
-hex2bin -p 00 MIKBUG.HEX
+hex2bin -s e000 -p 00 MIKBUG.HEX
 xxd -i -c16 MIKBUG.bin > MIKBUG.txt
 ```
 
