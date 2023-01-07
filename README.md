@@ -53,6 +53,10 @@ SBC6800に準じます
 
 ## 動作確認用のPICプログラムの書き込み
 EMUZ80技術資料8ページにしたがってPICに適合するemuz80_6800_Qxx.hexファイルを書き込んでください。  
+
+またはArduino UNOを用いてPICを書き込みます。  
+https://github.com/satoshiokue/Arduino-PIC-Programmer
+
 6800からの起動メッセージとエコーバックプログラムです。
 
 ## 6800プログラムの格納
